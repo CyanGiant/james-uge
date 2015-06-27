@@ -1,0 +1,438 @@
+subl text
+clear
+ls
+history | less
+history 
+sudo adduser cyan
+cd ../..
+cd ...
+cd Chrome\ Apps.localized/
+cd Applications/
+cd ..
+cd..
+ls -rt /
+ls -rt/
+ls -rt
+ls / -la
+ls ~
+cd documents/
+cd 
+cd Public/
+cd ~
+ls -l
+cd Drop\ Box/
+cd ../../..
+cd Contents/
+cd Default\ apdfllckaahabafndbhieahigkjlhalf.app/
+ls -l-a
+cd documents
+cd do
+cd ../Dictionaries/
+cd Printers/
+cd Library/
+ls-l
+ls -
+cd music
+pwd
+ls l
+cd /users/james/
+cd /
+ls -m
+man ls
+ls -Cla
+ls -B
+ls -lta
+ls man
+ls -ltra
+ls ltra
+ls -rtl
+ls -r
+ls -l -t -a
+ls -l -t
+ls -t -a
+ls -t
+ls -a
+cd Dropbox/
+cd /users
+this is a whole series of text
+lear
+git --version
+brew info fish
+brew inf
+git-flow
+echo $PATH 
+uname
+users
+username
+brew doctor
+rm -d my_really_cool_project/
+rm -d my_even_cooler_project/
+man rm
+rm my_even_cooler_project/
+rm man
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email "J.bennett@gmx.com"
+git config --global user.name "James Bennett"
+brew install git
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+echo 
+subl /etc/paths
+echo $P
+echo $EDITOR
+subl ~/.config/fish/config.fish
+fish_update_completions 
+fish_update
+curl -fsSL http://git.io/beJs | ruby
+git config --global user.name "James Bennett""
+git commit
+cd new_project/
+git config --global core.editor "nano"
+git committ
+git add README 
+nano README
+git init new_project
+git comit
+cd my_really_cool_project/
+git add README
+git init my_really_cool_project
+git init my_first_repostitory/.git/cd ~
+rm -man
+rm -r my_even_cooler_project/.git
+re -r my_even_cooler_project/.git
+mv my_first_repostitory/ my_even_cooler_project
+git init
+touch file2
+touch file1
+mkdir my_really_cool_project
+mk my_really_cool_project
+cd .git
+cd my_first_repostitory/
+git init my_first_repostitory/.git/
+git init my_first_repostitory/.git
+git init my_first_repostitory
+cd,,
+git status
+less
+sless
+les
+rm echo
+echo
+ba
+bs
+cd echo
+touch echo
+touch /echo
+touch
+celar
+cd ~/documents
+ c ..
+l
+cd /documents
+ls 
+cd cores
+cd users
+cd private
+cd shared
+cd .
+.
+ls -l ~
+ls -l~
+ls 0l
+ls some_other_file.txt
+cd 
+cd Desktop/
+cd des
+ls moving_around.txt 
+ls -lt
+ls -l
+subl moving_around.txt 
+ls
+history > moving_around.txt
+subl text
+clear
+history | less
+history 
+sudo adduser cyan
+cd ../..
+cd ...
+cd Chrome\ Apps.localized/
+cd Applications/
+cd ..
+cd..
+ls -rt /
+ls -rt/
+ls -rt
+ls / -la
+ls ~
+cd documents/
+cd Public/
+cd ~
+cd Drop\ Box/
+cd ../../..
+cd Contents/
+cd Default\ apdfllckaahabafndbhieahigkjlhalf.app/
+ls -l-a
+cd documents
+cd do
+cd ../Dictionaries/
+cd Printers/
+cd Library/
+ls-l
+ls -
+cd music
+pwd
+ls l
+cd /users/james/
+cd /
+ls -m
+man ls
+ls -Cla
+ls -B
+ls -lta
+ls man
+ls -ltra
+ls ltra
+ls -rtl
+ls -r
+ls -l -t -a
+ls -l -t
+ls -t -a
+ls -t
+ls -a
+cd Dropbox/
+cd /users
+this is a whole series of text
+lear
+git --version
+brew info fish
+brew inf
+git-flow
+echo $PATH 
+uname
+users
+username
+brew doctor
+rm -d my_really_cool_project/
+rm -d my_even_cooler_project/
+man rm
+rm my_even_cooler_project/
+rm man
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email "J.bennett@gmx.com"
+git config --global user.name "James Bennett"
+brew install git
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+echo 
+subl /etc/paths
+echo $P
+echo $EDITOR
+subl ~/.config/fish/config.fish
+fish_update_completions 
+fish_update
+curl -fsSL http://git.io/beJs | ruby
+git config --global user.name "James Bennett""
+git commit
+cd new_project/
+git config --global core.editor "nano"
+git committ
+git add README 
+nano README
+git init new_project
+git comit
+cd my_really_cool_project/
+git add README
+git init my_really_cool_project
+git init my_first_repostitory/.git/cd ~
+rm -man
+rm -r my_even_cooler_project/.git
+re -r my_even_cooler_project/.git
+mv my_first_repostitory/ my_even_cooler_project
+git init
+touch file2
+touch file1
+mkdir my_really_cool_project
+mk my_really_cool_project
+cd .git
+cd my_first_repostitory/
+git init my_first_repostitory/.git/
+git init my_first_repostitory/.git
+git init my_first_repostitory
+cd,,
+git status
+less
+sless
+les
+rm echo
+echo
+ba
+bs
+cd echo
+touch echo
+touch /echo
+touch
+celar
+cd ~/documents
+ c ..
+l
+cd /documents
+ls 
+cd cores
+cd users
+cd private
+cd shared
+cd .
+.
+ls -l ~
+ls -l~
+ls 0l
+subl moving_around.txt 
+ls -l
+history >>moving_around.txt 
+ls some_other_file.txt
+cd 
+cd Desktop/
+cd des
+ls moving_around.txt 
+ls -lt
+ls
+history > moving_around.txt
+subl text
+clear
+history | less
+history 
+sudo adduser cyan
+cd ../..
+cd ...
+cd Chrome\ Apps.localized/
+cd Applications/
+cd ..
+cd..
+ls -rt /
+ls -rt/
+ls -rt
+ls / -la
+ls ~
+cd documents/
+cd Public/
+cd ~
+cd Drop\ Box/
+cd ../../..
+cd Contents/
+cd Default\ apdfllckaahabafndbhieahigkjlhalf.app/
+ls -l-a
+cd documents
+cd do
+cd ../Dictionaries/
+cd Printers/
+cd Library/
+ls-l
+ls -
+cd music
+pwd
+ls l
+cd /users/james/
+cd /
+ls -m
+man ls
+ls -Cla
+ls -B
+ls -lta
+ls man
+ls -ltra
+ls ltra
+ls -rtl
+ls -r
+ls -l -t -a
+ls -l -t
+ls -t -a
+ls -t
+ls -a
+cd Dropbox/
+cd /users
+this is a whole series of text
+lear
+git --version
+brew info fish
+brew inf
+git-flow
+echo $PATH 
+uname
+users
+username
+brew doctor
+rm -d my_really_cool_project/
+rm -d my_even_cooler_project/
+man rm
+rm my_even_cooler_project/
+rm man
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email "J.bennett@gmx.com"
+git config --global user.name "James Bennett"
+brew install git
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+echo 
+subl /etc/paths
+echo $P
+echo $EDITOR
+subl ~/.config/fish/config.fish
+fish_update_completions 
+fish_update
+curl -fsSL http://git.io/beJs | ruby
+git config --global user.name "James Bennett""
+git commit
+cd new_project/
+git config --global core.editor "nano"
+git committ
+git add README 
+nano README
+git init new_project
+git comit
+cd my_really_cool_project/
+git add README
+git init my_really_cool_project
+git init my_first_repostitory/.git/cd ~
+rm -man
+rm -r my_even_cooler_project/.git
+re -r my_even_cooler_project/.git
+mv my_first_repostitory/ my_even_cooler_project
+git init
+touch file2
+touch file1
+mkdir my_really_cool_project
+mk my_really_cool_project
+cd .git
+cd my_first_repostitory/
+git init my_first_repostitory/.git/
+git init my_first_repostitory/.git
+git init my_first_repostitory
+cd,,
+git status
+less
+sless
+les
+rm echo
+echo
+ba
+bs
+cd echo
+touch echo
+touch /echo
+touch
+celar
+cd ~/documents
+ c ..
+l
+cd /documents
+ls 
+cd cores
+cd users
+cd private
+cd shared
+cd .
+.
+ls -l ~
+ls -l~
+ls 0l
