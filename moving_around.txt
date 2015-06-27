@@ -2,21 +2,24 @@ subl text
 clear
 ls
 history | less
-history 
+history
 sudo adduser cyan
 cd ../..
 cd ...
 cd Chrome\ Apps.localized/
 cd Applications/
 cd ..
+
+#This does not work in a mac environment, needs the space
 cd..
+
 ls -rt /
 ls -rt/
 ls -rt
 ls / -la
 ls ~
 cd documents/
-cd 
+cd
 cd Public/
 cd ~
 ls -l
@@ -60,7 +63,7 @@ git --version
 brew info fish
 brew inf
 git-flow
-echo $PATH 
+echo $PATH
 uname
 users
 username
@@ -76,12 +79,12 @@ git config --global user.email "J.bennett@gmx.com"
 git config --global user.name "James Bennett"
 brew install git
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-echo 
+echo
 subl /etc/paths
 echo $P
 echo $EDITOR
 subl ~/.config/fish/config.fish
-fish_update_completions 
+fish_update_completions
 fish_update
 curl -fsSL http://git.io/beJs | ruby
 git config --global user.name "James Bennett""
@@ -89,7 +92,7 @@ git commit
 cd new_project/
 git config --global core.editor "nano"
 git committ
-git add README 
+git add README
 nano README
 git init new_project
 git comit
@@ -129,7 +132,7 @@ cd ~/documents
  c ..
 l
 cd /documents
-ls 
+ls
 cd cores
 cd users
 cd private
@@ -140,19 +143,19 @@ ls -l ~
 ls -l~
 ls 0l
 ls some_other_file.txt
-cd 
+cd
 cd Desktop/
 cd des
-ls moving_around.txt 
+ls moving_around.txt
 ls -lt
 ls -l
-subl moving_around.txt 
+subl moving_around.txt
 ls
 history > moving_around.txt
 subl text
 clear
 history | less
-history 
+history
 sudo adduser cyan
 cd ../..
 cd ...
@@ -208,7 +211,7 @@ git --version
 brew info fish
 brew inf
 git-flow
-echo $PATH 
+echo $PATH
 uname
 users
 username
@@ -224,12 +227,12 @@ git config --global user.email "J.bennett@gmx.com"
 git config --global user.name "James Bennett"
 brew install git
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-echo 
+echo
 subl /etc/paths
 echo $P
 echo $EDITOR
 subl ~/.config/fish/config.fish
-fish_update_completions 
+fish_update_completions
 fish_update
 curl -fsSL http://git.io/beJs | ruby
 git config --global user.name "James Bennett""
@@ -237,7 +240,7 @@ git commit
 cd new_project/
 git config --global core.editor "nano"
 git committ
-git add README 
+git add README
 nano README
 git init new_project
 git comit
@@ -277,7 +280,7 @@ cd ~/documents
  c ..
 l
 cd /documents
-ls 
+ls
 cd cores
 cd users
 cd private
@@ -287,21 +290,21 @@ cd .
 ls -l ~
 ls -l~
 ls 0l
-subl moving_around.txt 
+subl moving_around.txt
 ls -l
-history >>moving_around.txt 
+history >>moving_around.txt
 ls some_other_file.txt
-cd 
+cd
 cd Desktop/
 cd des
-ls moving_around.txt 
+ls moving_around.txt
 ls -lt
 ls
 history > moving_around.txt
 subl text
 clear
 history | less
-history 
+history
 sudo adduser cyan
 cd ../..
 cd ...
@@ -357,7 +360,7 @@ git --version
 brew info fish
 brew inf
 git-flow
-echo $PATH 
+echo $PATH
 uname
 users
 username
@@ -373,12 +376,12 @@ git config --global user.email "J.bennett@gmx.com"
 git config --global user.name "James Bennett"
 brew install git
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
-echo 
+echo
 subl /etc/paths
 echo $P
 echo $EDITOR
 subl ~/.config/fish/config.fish
-fish_update_completions 
+fish_update_completions
 fish_update
 curl -fsSL http://git.io/beJs | ruby
 git config --global user.name "James Bennett""
@@ -386,7 +389,7 @@ git commit
 cd new_project/
 git config --global core.editor "nano"
 git committ
-git add README 
+git add README
 nano README
 git init new_project
 git comit
@@ -426,7 +429,7 @@ cd ~/documents
  c ..
 l
 cd /documents
-ls 
+ls
 cd cores
 cd users
 cd private
