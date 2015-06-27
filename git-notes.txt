@@ -4,3 +4,4 @@ using git branch followed by a name will create the name of the file
 git branch git_notes will create a branch called git_notes
 git checkout git_notes will move to that branch and make it active
 this is a new line
+added yet another line for local merge
