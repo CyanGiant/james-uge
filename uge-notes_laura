@@ -1,0 +1,284 @@
+20150627 - Sat 9-5 CodeFellows @SLU.
+Instructor: Alex
+TA's: Paul Pham (python teacher) and Kevin
+Henela and Denise (ta's)
+
+This course is like:
+Maker movement - meetups. Autodesk.
+Leveling up your skills.
+
+Why:
+Unix Command Line
+Git Workflow
+Critical Skills to improve (take notes)
+Homework > Assignments (submitted through GitHub)
+Group Projects > thru git repositories
+Why Version Control? (back up, share[publicly shows yr skill level], collaborate)
+
+What:
+Ups & Downs... up for your career
+Error Messages, No Messages (silent "killer" - succeed quietly & fail violently)
+Learning Process - always chances to learn... projects
+Apprenticeships: opportunities
+
+Agenda: 9-5 full day
+
+APP Developers:
+Apps - hardware devices, cloud, mobile devices, web browser, in a server.
+UNIX servers - the industry standard
+The DeFacto Standard.. more stable.. much faster.. compatible.. free.. open source.
+What is Unix?  An Operating System...
+  features: multi-process, multi-user..
+  release in 1973
+  Most popular: Linux and Darwin (Mac OS X)
+The Unix Philosophy.
+3 traits make Unix popular for developers:
+  data as plaintext file  (easy to understand)
+  many small programs (to chain together)
+  input-output redirection (pipe)
+History:
+  Can be seen on: screen, file or both!
+Unix Kernet - just a program
+  manages the hardware (cpu, memory, devices)
+  safe from hackers
+Unix Shell - a program
+  user interface
+  command line interface
+  multi-touch interface (phones)
+  audio
+Slack:
+  channels
+  for this class: sea-wd30
+
+===================================================================
+WIKI - Package Manager:
+https://en.wikipedia.org/wiki/Package_manager
+
+A package manager or package management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing software packages for a computer's operating system in a consistent manner. It typically maintains a database of software dependencies and version information to prevent software mismatches and missing prerequisites.
+
+Packages are distributions of software, applications and data. Packages also contain metadata, such as the software's name, description of its purpose, version number, vendor, checksum, and a list of dependencies necessary for the software to run properly. Upon installation, metadata is stored in a local package database.
+
+Package managers are designed to save organizations time and money through remote administration and software distribution technology that eliminate the need for manual installs and updates. This can be particularly useful for large enterprises whose operating systems are based on Linux and other Unix-like systems, typically consisting of hundreds or even tens of thousands of distinct software packages; in the former case, a package manager is a convenience, in the latter case it becomes essential.
+===================================================================
+
+~$  cd /
+This changes directories to the ROOT of your computer
+
+$ ls
+// list of files in the root directory...
+
+$ ls -t
+// changes the order of the lsiting so that the most recently modified iterms are first
+// t is for timeline
+
+$ ls -l
+// for a longer listing of what is in your root directory... detailed...
+
+$ ls -l -t
+or
+$ ls -lt
+// shows the long, time sorted results
+
+$ ls -r
+$ ls -rt
+// order is reversed, time reversed
+
+$ man less
+$ man ls
+  explanation of ls command
+
+ESCAPE
+tricking the command line into thinking that the space is just another character like any other... \
+
+NAMING:
+Always use dashes and lowdashes in your file names is esp. important in unix, so that it can be auto-completed.
+naming is CASE sensitive, different case makes it a different file.
+stick to lowercase with the dashes/underscores.
+
+RELATIVE PATHWAYS:
+always relative to where you are within the file system at the moment.
+
+You can list a directory from afar...
+ls ~
+  lists the contents of a directory
+
+
+-rt
+  reverses time
+
+.
+  means the current directory
+..
+  means one directory up
+../../
+  two directories up
+
+
+ROOT
+  top most folder - top of the filesystem which contains everything else.
+
+=======
+Fish shell:
+
+Getting back to bash temporarily:
+$ bash // work in regular bash
+$ exit // to get back to fish shell
+
+=======
+
+Move into the filesystem and make it our home!
+Make changes to the file system.
+
+Captured history - in your shell...
+
+Root terminal history into a program called LESS using pipe.
+spacebar advances page by page.
+Quit = q
+$ history | less
+(this is a pager of your terminal history)
+
+Chain of Commands
+
+Do one thing and do it well
+Everyoutput can become the input of another program
+
+COMMAND: less
+(the pager was originally called "more")
+
+CONCEPT: piping
+
+Saving History
+
+$ history > moving_around.txt
+
+$ name_of_file.txt
+// terminal should tell you that the file does exist
+
+Fish shell turns red if the previous command was an error.
+
+CONCEPT:
+Redirection  >
+  will overwrite
+Double Redirection >>
+  will output into an existing file instead of replacing it.
+
+~ $ ls -l moving_around.txt
+-rw-r--r--  1 laura  staff  16934 Jun 27 13:50 moving_around.txt
+
+Open files from your terminal into sublime text:
+
+$ subl FILENAME
+subl moving_around.txt
+
+KEEP YOUR STUFF SAFE, CREATE A SPECIAL DIRECTORY
+
+$ mkdir uge_workshop
+
+Verify that this directory exists, use:
+$ ls uge_workshop
+// it does autocommand
+
+MOVE -- PUT THINGS IN THEIR PLACE
+
+~ $ mv moving_around.txt ./uge_workshop/
+
+Verify that the file has been moved:
+~ $ ls uge_workshop/
+moving_around.txt
+
+man -v (look it up later)
+
+Version Control - backup - pay attention to the changes that happen in a folder.
+
+git is a Distributed Version Control System
+
+# TO DO:  look in the Pro Git book.. (free)
+
+.
+  this is the current directory
+..
+  this is the parent directory
+.git
+  hidden file
+
+$ git status
+// if in doubt, run git status.
+
+
+WORKING WITH REMOTES
+So that your projects are safe and not only on your hard drive.
+Set up a remote on GitHub
+
+setup a remote repository on GitHub,
+then back at the command line:
+git remote add origin https://github.com/lsammons/lsammons-uge.git
+
+Then back in terminal check to see that it is there:
+
+git remote -v
+
+Push to your remote repository command:
+
+git push -u origin master
+// origin is the connection you set up (URL to GitHub)
+
+Between local machine and github
+Setup a keypair so that you don't have to type credentials each time.
+
+GitHub:
+
+Keypair has public and private (only on your computer). Only match each other.
+
+~ $ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/laura/.ssh/id_rsa):
+
+// saves in default location
+// as where (empty passphrase)
+
+Copy to redirect output on MAC onto clipboard!
+Then you can just paste from there.
+
+cat ./.ssh/id_rsa.pub |pbcopy
+
+In GitHub -- pushed master and a branch up to the repository.
+Now: merge them together.
+
+Pull requests -- do it from the command line, not gitub.
+
+Done need to use -u flag after first time ever
+git push -u origin git-notes
+
+Pull from the repository:
+git pull origin master
+
+Merge a changed file in a branch into your local master:
+git merge git-notes
+
+Best Practices:
+when collaborating is to have someone review your code.
+Use the git / github workflow to help your accuracy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
